@@ -1,0 +1,18 @@
+---
+import { IHeroProps } from "@types";
+
+const { name, about } = Astro.props as IHeroProps;
+---
+
+<section>
+  <p class="dark:text-light mt-[117px]">Bonjour 🖐️ Je suis</p>
+  <h1>{name}</h1>
+  <p class="dark:text-light text-lg mb-16">
+    Je suis un développeur web basé en Ile-de-France.<br>
+    BAC+3 dans le développement/conception d'application, j'ai crée divers projets pour des clients. <br>
+    J'ai 5 années d'expériences dans le développement d'application web et mobile.<br>
+    Je suis spécialisé dans l'environnement Javascript, plus précisement MERN.<br>
+    Je suis compétent dans d'autre framework tel que ReactJs, Vue.js, Next.js ou encore en PHP Laravel et Symfony.<br>
+    Forger dans le métier grâce à plusieurs experience en entreprise, je cherche mettre à projet mes compétences professionnel en intégrant une nouvelle entreprise.<br>
+  </p>
+</section>
